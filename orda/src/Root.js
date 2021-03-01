@@ -1,7 +1,9 @@
+import ListParticipants from './ui/listParticipants';
+
 function Root() {
   return (
     <div className="Root">
-      gghj
+      <ListParticipants/>
     </div>
   );
 }
