@@ -1,5 +1,6 @@
+
 .headList{
-    height: 5vh;
+    height: 10vh;
     background: linear-gradient(to right, PowderBlue, white);
     text-align: right;
     padding: 10px;
@@ -8,7 +9,7 @@
 table{
     border: 1px solid black;
     border-collapse: collapse;
-    width: 100vw;
+    width: 95vw;
     margin: auto;
     text-align: center;
 }
@@ -18,7 +19,7 @@ tr, td, th {
     min-width: 200px;
 }
 
-.addParticipant {
+.button {
     margin-right: 30px;
     width: 150px;
     background: SteelBlue;
@@ -28,6 +29,24 @@ tr, td, th {
     border-radius: 5px;
 }
 
+.buttonHide {
+    height: 20px;
+    width: 20px;
+    background: url("../../src/image/shrink.png");
+    background-size: cover;
+}
+
+.buttonShow {
+    height: 20px;
+    width: 20px;
+    background-image: url("../../src/image/maximize-window-icon.png");
+    background-size: cover;
+}
+
 .tweetText{
     background-color: AliceBlue;
+}
+
+.content {
+    display: inline-block;
 }
